@@ -8,6 +8,12 @@
         tools:context=".MainActivity">
 
     <Button
+            android:id="@+id/connectToServer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connect to server"/>
+
+    <Button
             android:id="@+id/sendImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -25,8 +31,10 @@
             android:layout_height="wrap_content"
             android:text="Send pdf"/>
 
-    <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
+    <EditText
+            android:id="@+id/IPaddress"
+            android:inputType="number"
+            android:text="192.168.1."
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 </LinearLayout>
